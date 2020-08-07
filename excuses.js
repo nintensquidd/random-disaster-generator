@@ -1,8 +1,8 @@
 function Excuse() {
 
-  var myDog = ['dog', 'cat', 'sense of ennui', 'hamster', 'chinchilla', 'iguana', 'turtle', 'best friend', 'bro', 'boo', 'crush', 'sister', 'brother', 'nemesis', 'doppelganger', 'gerbil', 'bunny', 'fish', 'crew'];
+  var myDog = ['puppy', 'kitten', 'penguin', 'hamster', 'transformer', 'iguana', 'turtle', 'tornado', 'bro', 'ghost', 'friendly neighbor', 'homer simpson', 'asteroid', 'mp4 file', 'log of feces', 'finger', 'arrow', 'cursor', 'crew sock'];
   
-  var ate = ['ate', 'peer-reviewed', 'destroyed', 'deleted', 'erased', 'remixed', 'twitched', 'recycled', 'livetweeted', 'undermined', 'underbid', 'upcycled', 'gave away', 'plagiarised', 'confiscated', 'barfed on', 'stole', 'ransomed', 'spilled water on', 'lost', 'misplaced', 'buried', 'shredded', 'hid', 'liberated', 'left with', 'ebayed', 'craigslisted', 'etsyed', 'tweeted', 'instagrammed', 'snapchatted', 'youtubed', 'dunked on', 'subteweeted', 'favorited', 'upvoted', 'downvoted', 'live cast', 'pinned', 'vlogged', 'blogged about'];
+  var ate = ['demolished', 'crumbled', 'destroyed', 'deleted', 'erased', 'made art out of', 'absolutely wrecked', 'went to town on', 'didnt like', 'beat up', 'terrorized', 'accidentally knocked over', 'borrowed', 'got envious over', 'confiscated', 'barfed on', 'stole', 'ransomed', 'spilled water on', 'lost', 'misplaced', 'buried', 'shredded', 'hid', 'liberated', 'left with', 'ebayed', 'craigslisted', 'etsyed', 'dunked on', 'subteweeted', 'downvoted', '', 'pinned', 'vlogged', 'blogged about'];
   
   var myHomework = ['homework', 'project', 'essay', 'film project', 'visualization', 'infographic', 'pre-writing', 'term paper', 'lab report', 'reading log', 'summary', 'article', 'flash cards', 'study guide', 'textbook', 'workbook', 'reading book', 'diorama', 'poster', 'dreams', 'laptop', 'computer', 'tablet', 'momentum', 'report', 'slideshow', 'slide deck', 'presentation', 'worksheet', 'handout', 'notes', 'portfolio', 'blog post', 'comment'];
 
@@ -12,7 +12,7 @@ function Excuse() {
     return wordArray[randomNumber];
   }
 
-  var newExcuse = 'My ' + pickRandom(myDog) + ' ' + pickRandom(ate) + ' my ' + pickRandom(myHomework) + '.';
+  var newExcuse = 'a giant'+ pickRandom(myDog) + pickRandom(ate) + 'the' + pickRandom(myHomework) + '!!!';
   document.getElementById('excuses').innerHTML = newExcuse;
 
 }
