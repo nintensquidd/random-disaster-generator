@@ -1,7 +1,7 @@
 body {
   background-image: url('https://cdn.glitch.com/eb7b8edf-a4d4-45c6-b250-83f14fd88a02%2F12143-resonance_cascade.jpg?v=1596766500944');
-  background-size: cover;
-  background-repeat: none;
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
 }
 
 h1 {

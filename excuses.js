@@ -1,4 +1,4 @@
-function Disaster() {
+function Excuse() {
 
   var beast = ['puppy', 'kitten', 'penguin', 'hamster', 'transformer', 'iguana', 'turtle', 'tornado', 'Tyler Blevins' , 'ghost', 'friendly neighbor', 'homer simpson', 'asteroid', 'mp4 file', 'log of feces', 'finger', 'arrow', 'cursor', 'crew sock'];
   
@@ -12,7 +12,7 @@ function Disaster() {
     return wordArray[randomNumber];
   }
 
-  var newDisaster = ' a giant ' + pickRandom(beast) + ' just ' + pickRandom(action) + ' the ' + pickRandom(building) + '!!!';
-  document.getElementById('disasters').innerHTML = newDisaster;
+  var newExcuse = ' a giant ' + pickRandom(beast) + ' just ' + pickRandom(action) + ' the ' + pickRandom(building) + '!!!';
+  document.getElementById('excuses').innerHTML = newExcuse;
 
 }
