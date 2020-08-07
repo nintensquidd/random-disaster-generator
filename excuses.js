@@ -12,7 +12,7 @@ function Excuse() {
     return wordArray[randomNumber];
   }
 
-  var newExcuse = 'a giant' + pickRandom(myDog) + pickRandom(ate) + 'the' + pickRandom(myHomework) + '!!!';
+  var newExcuse = ' a giant ' + pickRandom(myDog) + ' just ' + pickRandom(ate) + ' the ' + pickRandom(myHomework) + '!!!';
   document.getElementById('excuses').innerHTML = newExcuse;
 
 }
