@@ -11,16 +11,27 @@ h1 {
   margin-left: 25px;
   color: #e62100;
   background-image: url ("https://cdn.glitch.com/eb7b8edf-a4d4-45c6-b250-83f14fd88a02%2Fblack.jpg?v=1596806602620");
+  background-color: black;
+  height:64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 h2 {
-  font-family:'helvetica', sans-serif;
+  position: relative;
+  top:-43px;
+  font-family:'bebas neue', sans-serif;
+  font-style: italic;
+  color: #e62100;
+  background-color: black;
   font-size: 32px;
   margin-left: 25px;
   color: #ffffff
 }
 
 button {
+  position: relative;
+  top: -50px;
   margin-left: 25px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -34,7 +45,7 @@ button {
   background-color: #e62100;
   border: 3px solid #fffff;
   height: 60px;
-  width: 150px;
+  width: 200px;
 }
 
 button:hover{
