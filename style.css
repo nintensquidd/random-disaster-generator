@@ -36,16 +36,16 @@ button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 1px;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'bebas neue', sans-serif;
   font-size: 28px;
+  font-style: bold;
   font-style: italic;
   color: #ffffff;
-  text-decoration: white underline overline wavy;
   cursor: pointer;
   background-color: #e62100;
   border: 3px solid #fffff;
   height: 60px;
-  width: 200px;
+  width: 130px;
 }
 
 button:hover{
@@ -69,10 +69,11 @@ a{
 
 #developedby{
   position: absolute;
-  bottom: 70px;
+  bottom: 68px;
   left: 25px;
   font-family: monospace;
   font-size: 12px;
+  background-color: black;
   color: #ffffff;
 }
 
@@ -82,5 +83,7 @@ a{
   left: 25px;
   font-family: monospace;
   font-size: 12px;
+  background-color: black;
   color: #ffffff
+  
 }
